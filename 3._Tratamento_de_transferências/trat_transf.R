@@ -9,8 +9,6 @@ library(writexl)
 
 # Bancos
 
-#D:/Henrique Nince/OneDrive/Área de Trabalho/UnB/TCC/Análises/Tratamento/2. Tratamento da posição/
-  
 banco_geral <- read_excel("banco_tratado_pos.xlsx", sheet = 1)
 
 banco_goleiros <- read_excel("banco_goleiros.xlsx", sheet = 1)
