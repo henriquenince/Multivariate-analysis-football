@@ -13,8 +13,6 @@ library(cluster)
 library(NbClust)
 library(FSA)
 
-setwd("D:/Henrique Nince/OneDrive/Área de Trabalho/UnB/TCC/Análises/6ª Tentativa/4. Tratamento final, Análise Fatorial e Scores")
-
 scores_gol <- read_excel("scores_goleiros.xlsx", sheet = 1)
 
 # Selecionando o numero de clusters
