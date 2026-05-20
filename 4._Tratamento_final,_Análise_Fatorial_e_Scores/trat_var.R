@@ -9,8 +9,6 @@ library(writexl)
 library(psych)
 library(caret)
 
-setwd("D:/Henrique Nince/OneDrive/Área de Trabalho/UnB/TCC/Análises/6ª Tentativa/3. Tratamento de transferências")
-
 banco_geral <- read_excel("banco_sem_transf.xlsx", sheet = 1)
 banco_goleiros <- read_excel("banco_goleiros_sem_transf.xlsx", sheet = 1)
 
