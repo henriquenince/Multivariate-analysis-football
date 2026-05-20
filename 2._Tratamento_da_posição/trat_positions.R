@@ -11,8 +11,6 @@ library(writexl)
   
   ## Banco geral
 
-#D:/Henrique Nince/OneDrive/Área de Trabalho/UnB/TCC/Análises/Tratamento/1. Tratamento inicial/
-
 banco_geral <- read_excel("banco_geral.xlsx", sheet = 1)
 banco_geral <- banco_geral %>% mutate(Player = toupper(stri_trans_general(Player, "Latin-ASCII")))
 
